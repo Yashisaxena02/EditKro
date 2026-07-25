@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Editkaro.in — Frames That Move People</title>
+  <meta name="description" content="Editkaro.in — a video editing & social media studio. Short-form, long-form, song edits, gaming, anime, cricket edits, documentary, love stories & travel edits." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="canonical" href="https://editkaro.in/" />
+  <link rel="icon" type="image/jpeg" href="./favicon.jpeg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Editkaro.in — Frames That Move People" />
+  <meta property="og:description" content="Video editing & social media marketing studio — short-form, long-form, gaming, football, eCommerce, documentary, color grading, anime & ad edits." />
+  <meta property="og:image" content="./og-image.jpeg" />
+  <meta property="og:url" content="https://editkaro.in/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Editkaro.in — Frames That Move People" />
+  <meta name="twitter:description" content="Video editing & social media marketing studio for creators and brands." />
+  <meta name="twitter:image" content="./og-image.jpeg" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor" aria-hidden="true"><span class="cursor-label" id="cursorLabel"></span></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader-inner">Editkaro.in
+      <span class="loader-num" id="loaderNum">00</span>
+    </div>
+  </div>
+
+  <header class="nav" id="nav" data-testid="main-nav">
+    <a href="#top" class="brand" data-testid="brand-logo"><span class="dot"></span>Edit<em>karo</em>.in</a>
+    <nav class="nav-links">
+      <a href="#work" data-testid="nav-work">Work</a>
+      <a href="#services" data-testid="nav-services">Services</a>
+      <a href="#about" data-testid="nav-about">About</a>
+      <a href="#process" data-testid="nav-process">Process</a>
+      <a href="#contact" data-testid="nav-contact">Contact</a>
+    </nav>
+    <a href="#contact" class="nav-cta magnetic" data-testid="nav-cta">Get a quote →</a>
+    <button class="burger" id="burger" aria-label="Menu" data-testid="burger-btn"><span></span><span></span><span></span></button>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" data-testid="mobile-menu">
+    <a href="#work" data-testid="m-nav-work"><span>01</span>Work</a>
+    <a href="#services" data-testid="m-nav-services"><span>02</span>Services</a>
+    <a href="#about" data-testid="m-nav-about"><span>03</span>About</a>
+    <a href="#process" data-testid="m-nav-process"><span>04</span>Process</a>
+    <a href="#contact" data-testid="m-nav-contact"><span>05</span>Contact</a>
+  </div>
+
+  <main id="top">
+  <section class="hero" data-testid="hero">
+    <div class="hero-video-wrap">
+      <video autoplay muted loop playsinline preload="auto"
+        src="videos/clip-sintel.mp4"></video>
+    </div>
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-noise" aria-hidden="true"></div>
+    <button class="hero-reel" id="heroReel" data-testid="hero-reel" aria-label="Watch the full reel">
+      <span class="rl-label">Watch<br>Full Reel</span>
+      <span class="rl-btn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span>
+    </button>
+    <div class="hero-top">
+      <span class="hero-tag">Video Editing &nbsp;/&nbsp; Social Media Studio</span>
+    </div>
+    <h1 class="hero-title" data-testid="hero-title">
+      <span class="line"><span>Frames</span></span>
+      <span class="line"><span class="outline">that</span></span>
+      <span class="line"><span class="accent">move</span></span>
+      <span class="line"><span>people.</span></span>
+    </h1>
+    <div class="hero-bottom">
+      <p class="hero-lede">
+        We are <b>Editkaro.in</b> — editors, storytellers & marketers turning raw footage
+        into scroll-stopping content across <b>10+</b> creative formats.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary magnetic" data-testid="hero-start-project">Start a project</a>
+        <a href="#work" class="btn btn-ghost magnetic" data-testid="hero-view-work">See our work</a>
+      </div>
+    </div>
+    <div class="scroll-cue" data-testid="scroll-cue">Scroll</div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Short-Form</span><span class="hollow">Long-Form</span><span>Song Edits</span>
+      <span class="hollow">Gaming</span><span>Anime</span><span class="hollow">Cricket Edit</span>
+      <span>Documentary</span><span class="hollow">Love Stories</span><span>Travelling</span>
+      <span>Short-Form</span><span class="hollow">Long-Form</span><span>Song Edits</span>
+      <span class="hollow">Gaming</span><span>Anime</span><span class="hollow">Cricket Edit</span>
+      <span>Documentary</span><span class="hollow">Love Stories</span><span>Travelling</span>
+    </div>
+  </div>
+
+  <section class="section" id="studio" data-testid="studio">
+    <div class="work-head">
+      <div>
+        <div class="eyebrow reveal" data-num="01 —">The Studio</div>
+        <h2 class="section-title reveal">Raw to <span class="accent">remarkable.</span></h2>
+      </div>
+      <p class="hero-lede reveal" style="margin-bottom:6px">Drag the handle to see how we transform raw footage into a polished, colour-graded, scroll-stopping edit.</p>
+    </div>
+    <div class="ba reveal" id="ba" data-testid="before-after">
+      <video class="ba-after" muted loop autoplay playsinline preload="auto" src="videos/clip-sintel.mp4"></video>
+      <div class="ba-before" id="baBefore">
+        <video class="ba-before-vid" muted loop autoplay playsinline preload="auto" src="videos/clip-sintel.mp4"></video>
+      </div>
+      <span class="ba-tag ba-tag-before">Raw footage</span>
+      <span class="ba-tag ba-tag-after">Editkaro edit</span>
+      <div class="ba-handle" id="baHandle" data-testid="ba-handle">
+        <span class="ba-grip">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 7l-5 5 5 5M15 7l5 5-5 5"/></svg>
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="work" data-testid="work">
+    <div class="work-head">
+      <div>
+        <div class="eyebrow reveal" data-num="02 —">Selected Work</div>
+        <h2 class="section-title reveal">The <span class="accent">reel</span> deal.</h2>
+      </div>
+      <p class="hero-lede reveal" style="margin-bottom:6px">Filter by format. Hover any tile for a live preview — click to open the full edit.</p>
+    </div>
+
+    <div class="filters reveal" id="filters" data-testid="filters">
+      <button class="filter active" data-filter="all" data-testid="filter-all">All Work</button>
+      <button class="filter" data-filter="song-edits" data-testid="filter-song-edits">Song Edits</button>
+      <button class="filter" data-filter="short-form" data-testid="filter-short-form">Short-Form</button>
+      <button class="filter" data-filter="long-form" data-testid="filter-long-form">Long-Form</button>
+      <button class="filter" data-filter="gaming" data-testid="filter-gaming">Gaming</button>
+      <button class="filter" data-filter="anime" data-testid="filter-anime">Anime</button>
+      <button class="filter" data-filter="cricket" data-testid="filter-cricket">Cricket Edit</button>
+      <button class="filter" data-filter="documentary" data-testid="filter-documentary">Documentary</button>
+      <button class="filter" data-filter="love-stories" data-testid="filter-love-stories">Love Stories</button>
+      <button class="filter" data-filter="travelling" data-testid="filter-travelling">Travelling</button>
+    </div>
+
+    <div class="grid" id="grid" data-testid="work-grid">
+    </div>
+  </section>
+
+  <section class="section" id="services" data-testid="services">
+    <div class="eyebrow reveal" data-num="03 —">What We Do</div>
+    <h2 class="section-title reveal">Services that <span class="accent">deliver.</span></h2>
+    <div class="services-grid">
+      <div class="service-card reveal" data-testid="service-video-editing">
+        <span class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="14" height="14" rx="2"/><path d="M17 9l4-2v10l-4-2"/></svg></span>
+        <h4>Video Editing</h4>
+        <p>Cuts, transitions, effects and motion graphics that turn raw footage into engaging content.</p>
+      </div>
+      <div class="service-card reveal" data-testid="service-color-grading">
+        <span class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="9.5" cy="9" r="1.2"/><circle cx="14.8" cy="8.5" r="1.2"/><circle cx="16.5" cy="13.5" r="1.2"/><circle cx="10.5" cy="15.5" r="1.2"/></svg></span>
+        <h4>Color Grading</h4>
+        <p>Professional color grading that sets the mood and creates a consistent, cinematic look.</p>
+      </div>
+      <div class="service-card reveal" data-testid="service-audio">
+        <span class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h2l2-6 3 14 3-11 2 3h6"/></svg></span>
+        <h4>Audio Enhancement</h4>
+        <p>Background music, sound design, noise reduction and mixing for crisp, immersive audio.</p>
+      </div>
+      <div class="service-card reveal" data-testid="service-social">
+        <span class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l16 8-16 8 4-8-4-8z"/></svg></span>
+        <h4>Social Media Marketing</h4>
+        <p>Strategic content creation and optimization to boost engagement and reach your audience.</p>
+      </div>
+      <div class="service-card reveal" data-testid="service-motion">
+        <span class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="8" height="8" rx="1.5"/><circle cx="17" cy="17" r="4"/></svg></span>
+        <h4>Motion Graphics</h4>
+        <p>Eye-catching animations and graphics that make your videos stand out and inform.</p>
+      </div>
+      <div class="service-card reveal" data-testid="service-strategy">
+        <span class="service-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M3 12h18"/><circle cx="12" cy="12" r="9"/></svg></span>
+        <h4>Content Strategy</h4>
+        <p>Comprehensive content planning aligned to your marketing goals and audience.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats" data-testid="stats">
+    <div class="stat reveal"><h4 data-count="500" data-suffix="+"><span class="accent">0</span></h4><p>Projects Shipped</p></div>
+    <div class="stat reveal"><h4 data-count="150" data-suffix="+"><span class="accent">0</span></h4><p>Happy Creators</p></div>
+    <div class="stat reveal"><h4 data-count="500" data-suffix="M+"><span class="accent">0</span></h4><p>Views Generated</p></div>
+    <div class="stat reveal"><h4 data-count="10" data-suffix="+"><span class="accent">0</span></h4><p>Creative Formats</p></div>
+  </section>
+
+  <section class="section" id="about" data-testid="about">
+    <div class="about-grid">
+      <div class="about-copy">
+        <div class="eyebrow reveal" data-num="04 —">About Us</div>
+        <h2 class="section-title reveal">Editors by <span class="accent">craft.</span></h2>
+        <p class="reveal about-text">Editkaro.in is a video editing &amp; social media marketing studio based in India. We specialise in
+          creating engaging, high-quality video content for brands, creators and businesses across formats.</p>
+        <p class="reveal about-text">Our mission is simple: turn raw footage into content that stops the scroll. Our vision is to be the
+          editing partner every creator trusts to make their story look — and feel — unforgettable.</p>
+        <div class="about-pills reveal" data-testid="about-pillars">
+          <span class="pill">Professional Quality</span>
+          <span class="pill">Quick Turnaround</span>
+          <span class="pill">Creative Solutions</span>
+          <span class="pill">Client Satisfaction</span>
+        </div>
+      </div>
+      <div class="about-media reveal">
+        <img src="https://images.pexels.com/photos/8102680/pexels-photo-8102680.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Editkaro.in editors working in studio" loading="lazy" />
+      </div>
+    </div>
+
+    <div class="team-head reveal">
+      <h3>Meet the <span class="accent">team.</span></h3>
+      <p class="hero-lede" style="margin:0">The editors, designers &amp; strategists behind every project.</p>
+    </div>
+    <div class="team-grid" data-testid="team-grid">
+      <div class="team-card reveal" data-testid="team-member-0">
+        <img src="https://images.pexels.com/photos/12311572/pexels-photo-12311572.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Arjun Mehta — Lead Editor" loading="lazy" />
+        <h4>Arjun Mehta</h4><p>Lead Editor</p>
+      </div>
+      <div class="team-card reveal" data-testid="team-member-1">
+        <img src="https://images.pexels.com/photos/29852852/pexels-photo-29852852.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Ananya Kapoor — Motion Designer" loading="lazy" />
+        <h4>Ananya Kapoor</h4><p>Motion Designer</p>
+      </div>
+      <div class="team-card reveal" data-testid="team-member-2">
+        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=srgb&fm=jpg&w=940&q=80" alt="Rohan Verma — Colorist" loading="lazy" />
+        <h4>Rohan Verma</h4><p>Colorist</p>
+      </div>
+      <div class="team-card reveal" data-testid="team-member-3">
+        <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?crop=entropy&cs=srgb&fm=jpg&w=940&q=80" alt="Sneha Iyer — Social Media Strategist" loading="lazy" />
+        <h4>Sneha Iyer</h4><p>Social Media Strategist</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="testimonials" data-testid="testimonials">
+    <div class="eyebrow reveal" data-num="05 —">Client Love</div>
+    <h2 class="section-title reveal">Hear it <span class="accent">from them.</span></h2>
+    <div class="testi-grid">
+      <div class="testi-card reveal" data-testid="testimonial-0">
+        <span class="testi-quote">“</span>
+        <p>Editkaro transformed our product videos completely. The quality of editing and attention to detail was outstanding, and the team was incredibly responsive to feedback.</p>
+        <h4>Rohit Sharma</h4><span>E-Commerce Business Owner</span>
+      </div>
+      <div class="testi-card reveal" data-testid="testimonial-1">
+        <span class="testi-quote">“</span>
+        <p>The team at Editkaro has been instrumental in growing our YouTube channel. Their editing skills and creative input have helped our content stand out.</p>
+        <h4>Priya Patel</h4><span>Content Creator</span>
+      </div>
+      <div class="testi-card reveal" data-testid="testimonial-2">
+        <span class="testi-quote">“</span>
+        <p>We hired Editkaro for our corporate documentaries, and the results exceeded our expectations. Their professional approach and quick turnaround made it seamless.</p>
+        <h4>Vikram Singh</h4><span>Marketing Director</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="process" data-testid="process">
+    <div class="eyebrow reveal" data-num="06 —">How We Roll</div>
+    <h2 class="section-title reveal">From brief <span class="accent">to banger.</span></h2>
+    <div class="process-grid">
+      <div class="pstep reveal"><div class="pnum">STEP 01</div><h4>Discovery &amp; Brief</h4><p>We dig into your goals, audience and references to lock a creative direction that fits the platform.</p></div>
+      <div class="pstep reveal"><div class="pnum">STEP 02</div><h4>Story &amp; Structure</h4><p>Hooks, pacing and narrative are mapped first — because the edit is only as strong as the story.</p></div>
+      <div class="pstep reveal"><div class="pnum">STEP 03</div><h4>Edit &amp; Grade</h4><p>Cuts, motion graphics, sound design and cinematic color grading come together frame by frame.</p></div>
+      <div class="pstep reveal"><div class="pnum">STEP 04</div><h4>Deliver &amp; Scale</h4><p>Platform-ready exports, revisions and content strategy so your work keeps performing.</p></div>
+    </div>
+  </section>
+
+  <section class="newsletter" data-testid="newsletter">
+    <div class="newsletter-inner">
+      <div>
+        <h3>Stay updated with our <span class="accent">latest work.</span></h3>
+        <p>Subscribe for editing tips, industry insights &amp; special offers. No spam, ever.</p>
+      </div>
+      <form class="newsletter-form" id="newsletterForm" data-testid="newsletter-form">
+        <input type="email" id="newsletterEmail" placeholder="you@email.com" required data-testid="newsletter-email-input" />
+        <button type="submit" class="btn btn-primary" data-testid="newsletter-submit">Subscribe →</button>
+      </form>
+      <span class="form-ok" id="newsletterOk" data-testid="newsletter-success"></span>
+    </div>
+  </section>
+
+  <section class="contact" id="contact" data-testid="contact">
+    <div class="contact-inner">
+      <div>
+        <div class="eyebrow reveal" data-num="07 —">Get In Touch</div>
+        <h2 class="reveal">Let's make<br><span class="accent">something loud.</span></h2>
+        <p class="contact-lede reveal">Tell us about your project and we'll turn your footage into content people can't scroll past.</p>
+      </div>
+      <form class="form reveal" id="quoteForm" data-testid="quote-form">
+        <div class="field"><input type="text" id="name" placeholder="Name" required data-testid="input-name" /><label for="name">Your name</label></div>
+        <div class="field"><input type="email" id="email" placeholder="Email" required data-testid="input-email" /><label for="email">Email address</label></div>
+        <div class="field"><input type="tel" id="phone" placeholder="Phone" required data-testid="input-phone" /><label for="phone">Phone number</label></div>
+        <div class="field"><input type="text" id="type" placeholder="Type" data-testid="input-type" /><label for="type">Project type (e.g. Song edit, Wedding film)</label></div>
+        <div class="field"><textarea id="message" placeholder="Message" required data-testid="input-message"></textarea><label for="message">Tell us about it</label></div>
+        <button type="submit" class="btn btn-primary" data-testid="submit-quote" style="align-self:flex-start">Send request →</button>
+        <span class="form-ok" id="formOk" data-testid="form-success">✦ Message received! We'll get back to you soon.</span>
+        <p class="form-note" data-testid="contact-response-note">We usually reply within 24 hours.</p>
+      </form>
+
+    </div>
+  </section>
+  </main>
+
+  <footer class="footer" data-testid="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-wordmark" data-testid="footer-wordmark">Editkaro</div>
+        <p>Editkaro.in — Frames that move people — video editing &amp; social media studio.</p>
+      </div>
+      <div class="footer-card" data-testid="footer-contact-card">
+        <span class="footer-col-title">Get In Touch</span>
+        <div class="footer-card-rows">
+          <a class="fc-item" href="mailto:info@editkaro.in" data-testid="footer-email"><span class="k">Email</span><span class="v">info@editkaro.in</span></a>
+          <a class="fc-item" href="tel:+919876543210" data-testid="footer-phone"><span class="k">Call Us</span><span class="v">+91 98765 43210</span></a>
+          <span class="fc-item" data-testid="footer-address"><span class="k">Visit Us</span><span class="v">Mumbai, Maharashtra</span></span>
+          <a class="fc-item" href="https://www.instagram.com/editkaro.in" target="_blank" rel="noopener" data-testid="footer-instagram"><span class="k">Instagram</span><span class="v">@editkaro.in</span></a>
+          <a class="fc-item" href="https://editkaro.in" target="_blank" rel="noopener" data-testid="footer-website"><span class="k">Website</span><span class="v">editkaro.in</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Editkaro.in — All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="https://www.instagram.com/editkaro.in" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.youtube.com/@editkaro" target="_blank" rel="noopener">YouTube</a>
+        <a href="mailto:info@editkaro.in">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" data-testid="lightbox">
+    <button class="lb-close" id="lbClose" aria-label="Close" data-testid="lightbox-close">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+    <div class="lb-inner">
+      <div class="lb-video"><video id="lbVideo" controls playsinline></video></div>
+      <div class="lb-meta">
+        <div><span class="lb-tag" id="lbTag"></span><h3 id="lbTitle"></h3></div>
+        <p class="hero-lede" id="lbClient" style="margin:0"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
